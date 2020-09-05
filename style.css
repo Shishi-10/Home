@@ -1,0 +1,73 @@
+
+.container{
+  width: 1000px;
+  margin: auto;
+}
+
+.Top_Mato{
+  width: 100vw;
+  	vertical-align: bottom;
+}
+.Hommbun{
+  font-size: 20px;
+}
+.Kiroku_Mato{
+  width: 170px;
+}
+nav{
+  overflow: hidden;
+  background: #00a968;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+nav li{
+  float: left;
+  list-style-type: none;
+
+}
+body {
+  margin: 0;
+}
+nav a{
+  text-decoration: none;
+  color: #fff;
+  padding: 8px;
+  display: block;
+  transition: .4s;
+}
+nav a:hover{
+  background: #fff;
+  color: #00a968;
+}
+.Kiroku_Mato a{
+background: #00a968;
+border: 1px solid #00a968;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px;
+  display: block;
+  transition: .4s;
+}
+.Kiroku_Mato a:hover{
+  background: #fff;
+  color: #00a968;
+  border: 1px solid #00a968;
+}
+.Kiroku a{
+background: #00a968;
+border: 1px solid #00a968;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px;
+  display: block;
+  transition: .4s;
+}
+.Kiroku a:hover{
+  background: #fff;
+  color: #00a968;
+  border: 1px solid #00a968;
+}
+.Kiroku{
+  width: 105px;
+  font-size: 20px;
+}
