@@ -15,6 +15,7 @@
   width: 170px;
 }
 nav{
+   width: 100vw;
   overflow: hidden;
   background: #00a968;
   margin-bottom: 30px;
