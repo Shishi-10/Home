@@ -17,7 +17,7 @@
 nav{
    width: 100vw;
   overflow: hidden;
-  background: #00a968;
+  background: #009786;
   margin-bottom: 30px;
   font-size: 20px;
 }
@@ -38,11 +38,11 @@ nav a{
 }
 nav a:hover{
   background: #fff;
-  color: #00a968;
+  color: #009786;
 }
 .Kiroku_Mato a{
-background: #00a968;
-border: 1px solid #00a968;
+background: #009786;
+border: 1px solid #009786;
   text-decoration: none;
   color: #fff;
   padding: 8px;
@@ -51,12 +51,12 @@ border: 1px solid #00a968;
 }
 .Kiroku_Mato a:hover{
   background: #fff;
-  color: #00a968;
-  border: 1px solid #00a968;
+  color: #009786;
+  border: 1px solid #009786;
 }
 .Kiroku a{
-background: #00a968;
-border: 1px solid #00a968;
+background: #009786;
+border: 1px solid #009786;
   text-decoration: none;
   color: #fff;
   padding: 8px;
@@ -65,8 +65,8 @@ border: 1px solid #00a968;
 }
 .Kiroku a:hover{
   background: #fff;
-  color: #00a968;
-  border: 1px solid #00a968;
+  color: #009786;
+  border: 1px solid #009786;
 }
 .Kiroku{
   width: 105px;
