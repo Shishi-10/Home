@@ -5,7 +5,7 @@
 }
 
 .Top_Mato{
-  width: 1280px;
+  width: 100vw;
   	vertical-align: bottom;
 }
 .Hommbun{
@@ -15,7 +15,7 @@
   width: 170px;
 }
 nav{
-   width: 1280px;
+   width: 100vw;
   overflow: hidden;
   background: #009786;
   margin-bottom: 30px;
