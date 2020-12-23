@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <link rel="icon" type="image/png" href="https://github.com/Shishi-10/Home/blob/master/icon.png?raw=true">
+  <meta charset="UTF-8">
+  <link rel = "stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ししとう’sホームページ</title>
+</head>
+<body>
+
+
+  <img class="Top_Mato"
+  src="https://github.com/Shishi-10/Home/blob/master/Top.JPG?raw=true" alt="">
+
+  <nav>
+    <ul class="container">
+      <li>
+        <a href="https://shishi-10.github.io/Home/">ホーム</a>
+      </li>
+      <li>
+        <a href="https://shishi-10.github.io/Home/About.html">About Me</a>
+      </li>
+      <li>
+        <a href="https://shishi-10.github.io/Home/BVE.html">Bveデータ</a>
+      </li>
+      <li>
+        <a href="https://shishi-10.github.io/Home/Kinkyo.html">近況</a>
+      </li>
+      <li>
+        <a href="https://shishi-10.github.io/Home/Kiroku.html">撮影記録</a>
+      </li>
+      <li>
+        <a href="https://shishi-10.github.io/Home/Kiroku_Mato.html">E231系マト車撮影記録</a>
+      </li>
+      <li>
+        <a href="https://twitter.com/Joban_E231">Twitter</a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCufzHNAUamwTqm5SC7Tk16A/featured">YouTube</a>
+      </li>
+      <li>
+        <a href="https://shishi-10.github.io/Home/link.html">リンク</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="container">
+    <h1 class="Midashi">
+BVE5用車両データ 209系1000番台
+  </h1>
+    <h2 class="Midashi">
+データについて
+</h2>
+209系1000番台を再現した「車両アドオン」です。<br>
+BVE5.8で動作を確認しております。それ以外のバージョンでのサポートは致しません。<br>
+BVE6では動作致しません。<br>
+今回は"一応"車両データとして完成させましたが、最低限走れるような機能しか付いてません。<br>
+モーター音は適当ですし性能は実車をかすりもしてないです。謙遜とかじゃなくて。<br>
+そんな感じなので車両データとは名ばかりという感じです。<br>
+所詮は中学生が趣味で作ったものなのであんまり期待しないでください。<br>
+
+Read me.txtにZipファイルのパスワードがありますので最後まで見てください。<br>
+    <h2 class="Midashi">
+利用上の注意
+</h2>
+・当方で公開したデータを使用した際のトラブル等は自己責任でお願いします。<br>
+・無断での転載・無断での二次配布などは禁止とします。<br>
+・改造などは結構ですが、自己責任でお願いします。<br>
+・改造等をしたデータを公開する際にはホームページの「About me」にある連絡先までご連絡ください。<br>
+・動画投稿については禁止はしません。暴走などの非常識な運転の動画の投稿はおやめください。<br>
+ 改造を含む運転動画は禁止にはしませんが、あまりにも常識に欠けるような改造だった場合には、
+ 当該動画の削除をお願いするかもしれません。<br>
+・公開中のデータを指定した路線を公開する場合は、下の連絡先までご連絡ください。<br>
+<br>
+以上の事にご了承いただけましたら、下のリンクよりダウンロードください。<br>
+<br>
+<div class="Kiroku_Mato">
+      <a href="Kiroku_Mato.html" class="Kiroku_Mato">ダウンロード</a>
+</div>
+    </p>
+    </div>
+</body>
+</html>
