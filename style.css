@@ -5,6 +5,11 @@
   margin-left: 80px;
 }
 
+container{
+  width: 1280px;
+  margin: auto;
+}
+
 .Top_Mato{
   width: 100vw;
   	vertical-align: bottom;
