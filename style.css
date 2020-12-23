@@ -1,17 +1,17 @@
 
 .container{
-  width: 1280px;
+  width: 1500px;
   margin: auto;
   margin-left: 80px;
 }
 
 container{
-  width: 1280px;
+  width: 1500px;
   margin: auto;
 }
 
 .Top_Mato{
-  width: 100vw;
+  width: 1500px;
   	vertical-align: bottom;
 }
 .Hommbun{
@@ -21,7 +21,7 @@ container{
   width: 170px;
 }
 nav{
-   width: 1280px;
+   width: 1500px;
   overflow: hidden;
   background: #009786;
   margin-bottom: 30px;
