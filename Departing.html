@@ -1,0 +1,93 @@
+
+<HTML>
+
+<HEAD>
+<TITLE>発メロ</TITLE>
+</HEAD>
+
+<!--
+音声追加時は//////////から====までを1単位としてコピー
+audioタグファイル参照,id
+buttonタグid,再生停止,class
+btn_play_x
+btn_stop_x
+btn_pause_x
+audioElementX
+audioElement id
+styleタグ内.btn_x
+-->
+
+<BODY>
+
+<h1>発メロ_テスト版</h1>
+<p>ONで再生、OFFで再生終了からの戸閉放送、ALL OFFで全て再生終了<br>
+品川駅5番線</p>
+
+<!--//////////-->
+<!--ループ対応-->
+<audio loop src="DepartingMelody_1.wav" type="audio/mpeg" id="Melody_A"></audio>
+<audio src="DepartingAno_1.wav" type="audio/mpeg" id="Ano_A"></audio>
+<button id="btn_play" class="btn_on"><font color="#fff">ON</font></button><br>
+<button id="btn_stop" class="btn_off"><font color="#fff">OFF</font></button><br><br>
+<button id="btn_allstop" class="btn_alloff">ALL OFF</button><br>
+<script>
+window.addEventListener('DOMContentLoaded', function(){
+
+  const btn_play = document.getElementById("btn_play");
+  const btn_stop = document.getElementById("btn_stop");
+  const btn_allstop = document.getElementById("btn_allstop");
+  const audioElementA = document.getElementById("Melody_A");
+  const audioElementB = document.getElementById("Ano_A");
+
+  btn_play.addEventListener("click", e => {
+    audioElementA.play();
+  });
+
+  btn_stop.addEventListener("click", e => {
+    audioElementA.pause();
+audioElementA.currentTime = 0;
+    audioElementB.play();
+  });
+
+  btn_allstop.addEventListener("click", e => {
+    audioElementA.pause();
+audioElementA.currentTime = 0;
+    audioElementB.pause();
+audioElementB.currentTime = 0;
+  });
+});
+</script>
+
+<style>
+.btn_on{
+    width: 80px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    background: #b7282e;
+    cursor: pointer;
+font-size: 20px;
+}
+.btn_off{
+    width: 80px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    background: #333631;
+    cursor: pointer;
+font-size: 20px;
+}
+.btn_alloff{
+    width: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    background: #bbc8e6;
+    cursor: pointer;
+font-size: 20px;
+}
+</style>
+<br><br>
+<!--==========-->
+</body>
+</html>
